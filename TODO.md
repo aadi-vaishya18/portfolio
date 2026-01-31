@@ -1,0 +1,9 @@
+- [ ] Fix ID attribute: Change id="#home" to id="home"
+- [ ] Fix typo: "Web Developor" to "Web Developer"
+- [ ] Fix typo: "genrator" to "generator"
+- [ ] Fix typo: "Maharastra" to "Maharashtra"
+- [ ] Update date: "Dec 25 - Present" to "Dec 2023 - Present"
+- [ ] Update date: "2023-27" to "2023-2027"
+- [ ] Change form name: "YOUR_FORM_NAME" to "contactForm"
+- [ ] Standardize input names to lowercase: Name -> name, Email -> email, Message -> message
+- [ ] Minor capitalization: "Web app Development" -> "Web App Development", "pvt. ltd." -> "Pvt. Ltd.", "Vaishya From Mumbai" -> "Vaishya from Mumbai"

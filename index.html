@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Aditya Vaishya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- ----------Header Section---------- -->
+
+   <div class="header">
+    <div class="container" id="#home">
+        <nav>
+            <img src="assets/logo.png" alt="logo" class="logo">
+            <ul id="sideMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Aditya</span><br> Vaishya From Mumbai</h1>
+        </div>
+    </div>
+   </div> 
+
+   <!-- ----------About Section---------- -->
+    
+   <div class="about" id="about">
+    <div class="container"> 
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/user1.png" alt="user">
+            </div>
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>I am a passionate and detail-oriented individual with a strong interest in building meaningful and impactful digital experiences. I enjoy turning ideas into reality through clean design, logical structure, and efficient code. With a constant curiosity to learn and improve, I focus on understanding both the technical and creative aspects of development. I believe consistency, problem-solving, and adaptability are key to growth in any field. Whether working independently or as part of a team, I strive to deliver quality work that adds real value. I am always eager to explore new technologies, refine my skills, and take on challenges that push me beyond my comfort zone.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills', this)">Skills</p>
+                    <p class="tab-links" onclick="openTab('experience', this)">Experience</p>
+                    <p class="tab-links" onclick="openTab('education', this)">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Developor</span><br>Web app Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Dec 25 - Present</span><br>Web Development Intern at ApexPlanet Software pvt. ltd.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-27</span><br>Pursuing B-Tech Degree</li>
+                        <li><span>2021-23</span><br>H.S.C (Maharastra State Board)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   
+   <!-- ----------Project Section---------- -->
+
+   <div class="projects" id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Creating responsive, visually appealing websites with clean layouts and modern aesthetics that deliver seamless user experiences across all devices.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Designing intuitive user interfaces with a focus on usability, accessibility, and engaging interactions that enhance the overall user journey.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i> 
+                <h2>App Design</h2>
+                <p>Building functional and user-friendly web applications with efficient code structure, smooth performance, and a focus on solving real-world problems.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- ----------Portfolio Section---------- -->
+
+   <div class="portfolio" id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets/work-1.png" alt="work-1">
+                <div class="layer">
+                    <h3>TicTacToe Game</h3>
+                    <p>This Tic Tac Toe game is designed for two players. It features a clean UI and dynamic gameplay. The game announces the winner, handles turns, and allows resetting the game board.</p>
+                    <a href="https://aadi-vaishya18.github.io/TicTacToe/">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/work-2.png" alt="work-2">
+                <div class="layer">
+                    <h3>Quotely : Random Quote genrator</h3>
+                    <p>Quotely is a clean and simple application designed to inspire you with random quotes, sayings, and wisdom from famous authors and personalities</p>
+                    <a href="https://aadi-vaishya18.github.io/Quotely/">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/work-3.png" alt="work-3">
+                <div class="layer">
+                    <h3>Quizgineer : A Quiz web app</h3>
+                    <p>Quizgineer is a responsive quiz web application. It allows users to select quiz categories and number of questions, features a real-time timer, instant answer feedback, progress tracking, and a final result summary.  </p>
+                    <a href="https://aadi-vaishya18.github.io/Quizgineer/">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+
+   <!-- ----------Contact Section---------- -->
+
+   <div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>adityavaishya.work@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9539468339</p>
+                <div class="social-icons">
+                    <a href="https://github.com/aadi-vaishya18/">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
+                    <a href="https://instagram.com/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                    <a href="https://linkedin.com/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+                <a href="assets/Aditya's Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="YOUR_FORM_NAME">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; 2024 , Made with <i class="fa-solid fa-heart"></i> by <a href="https://github.com/aadi-vaishya18/">Aditya Vaishya</a>. All rights reserved.</p>
+    </div>
+   </div>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
