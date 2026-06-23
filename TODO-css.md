@@ -1,7 +1,0 @@
-- [ ] Remove non-standard comment: /* ✅ IMPORTANT FIX */
-- [ ] Remove non-standard comment: /* ✅ FIX: prevents overflow issues */
-- [ ] Remove non-standard comment: /* ✅ FIX */
-- [ ] Remove non-standard comment: /* ✅ FIX */
-- [ ] Remove non-standard comment: /* ✅ FIX for image distortion */
-- [ ] Remove non-standard comment: /* ✅ FIXED SELECTOR */
-- [ ] Remove non-standard comment: /* ✅ FIX */
